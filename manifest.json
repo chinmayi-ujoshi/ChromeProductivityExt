@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Limiter",
+  "version": "1.0",
+  "description": "Limit the number of open tabs.",
+  "permissions": ["tabs", "storage", "notifications"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
